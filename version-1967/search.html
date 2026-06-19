@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-欧美影片大全</title>
+    <meta name="description" content="影片搜索页面，可按影片名、地区、年份、题材和标签检索片库内容。">
+    <meta name="keywords" content="影片搜索,欧美影片大全,欧美影片,热门片库,在线点播,电影分类,精选影片">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-wrap">
+        <a class="brand" href="index.html" aria-label="欧美影片大全">
+            <span class="brand-mark" aria-hidden="true">影</span>
+            <span>
+                <span class="brand-name">欧美影片大全</span>
+                <span class="brand-subtitle">热门影片在线点播</span>
+            </span>
+        </a>
+        <nav class="primary-nav" aria-label="主导航">
+            <a href="index.html">首页</a><a href="categories.html">分类总览</a><a href="rankings.html">热门榜单</a><a href="category-europe-us.html">欧美精选</a><a href="category-action-adventure.html">动作冒险</a><a href="search.html">搜索</a>
+        </nav>
+        <button class="mobile-toggle" type="button" aria-label="展开导航" data-mobile-toggle>☰</button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a href="index.html">首页</a><a href="categories.html">分类总览</a><a href="rankings.html">热门榜单</a><a href="category-europe-us.html">欧美精选</a><a href="category-action-adventure.html">动作冒险</a><a href="search.html">搜索</a>
+    </nav>
+</header>
+<main>
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <span class="eyebrow">欧美影片大全 · 搜索</span>
+            <h1>影片搜索</h1>
+            <p>输入影片名、地区、年份、题材或标签，快速检索片库内容并进入详情页。</p>
+            <form class="search-page-form" data-search-form>
+                <input type="search" placeholder="搜索影片名称、地区或题材" data-search-input>
+                <button class="btn btn-primary" type="submit">搜索</button>
+            </form>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="movie-grid" data-search-results></div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <span class="footer-title">欧美影片大全</span>
+            <p>欧美影片大全栏目聚合欧美影片内容，按题材、热度和地区进行分类展示。</p>
+        </div>
+        <div>
+            <span class="footer-title">热门入口</span>
+            <ul>
+                <li><a href="index.html">首页推荐</a></li>
+                <li><a href="categories.html">分类总览</a></li>
+                <li><a href="rankings.html">热门榜单</a></li>
+                <li><a href="search.html">影片搜索</a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="footer-title">精选分类</span>
+            <ul><li><a href="category-europe-us.html">欧美精选</a></li><li><a href="category-action-adventure.html">动作冒险</a></li><li><a href="category-romance-drama.html">爱情剧情</a></li><li><a href="category-suspense-thriller.html">悬疑惊悚</a></li><li><a href="category-comedy-variety.html">喜剧综艺</a></li></ul>
+        </div>
+        <div>
+            <span class="footer-title">更多片库</span>
+            <ul><li><a href="category-sci-fi-fantasy.html">科幻奇幻</a></li><li><a href="category-family-healing.html">家庭治愈</a></li><li><a href="category-documentary-humanity.html">纪录人文</a></li><li><a href="category-crime-war.html">犯罪战争</a></li><li><a href="category-global-selection.html">环球片库</a></li></ul>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 欧美影片大全 · 热门影片在线点播</div>
+</footer>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
